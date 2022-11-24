@@ -2,9 +2,9 @@ package personnages.principaux;
 
 import personnages.Humain;
 
-public class Commercants extends Humain{
+public class Commercant extends Humain{
 
-	public Commercants(String nom, int argent) {
+	public Commercant(String nom, int argent) {
 		super(nom, argent, "thé");
 		
 	}

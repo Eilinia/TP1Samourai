@@ -17,12 +17,12 @@ public class Humain {
 	}
 	
 	public void direBonjour() {
-		parler("Bonjour ! Je m'appelle " + this.nom + " et j'aime boire du " + 
-				this.boisson + " et j'ai " + this.argent + " sous en poche");
+		parler("Bonjour ! Je m'appelle " + this.nom + ", j'aime boire du " + 
+				this.boisson + " et j'ai " + this.argent + " sous en poche.");
 	}
 	
 	public void boire() {
-		parler("Mmm, un bon verre " + this.boisson + " ! GLOUPS !"); 
+		parler("Mmm, un bon verre de " + this.boisson + " ! GLOUPS !"); 
 	}
 
 	public String getNom() {

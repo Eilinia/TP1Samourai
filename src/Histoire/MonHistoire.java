@@ -1,5 +1,9 @@
 package Histoire;
 
+import personnages.Humain;
+import personnages.principaux.*;
+
+
 public class MonHistoire {
 
 	public static void main (String[] args) {
@@ -8,7 +12,7 @@ public class MonHistoire {
 		humain.boire();
 		Commercant commercant = new Commercant("Marchand", 35);
 		commercant.direBonjour();
-		Yakusa yakusa = new Yakusa("Yaku␣le␣noir", 42,
+		Yakuza yakusa = new Yakuza("Yaku␣le␣noir", 42,
 		                           "biere", "WarSong");
 		yakusa.direBonjour();
 		yakusa.extorquer(commercant);
